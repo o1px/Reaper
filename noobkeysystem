@@ -1,0 +1,14 @@
+function c() {
+  let a = 'Write your key here'; 
+  let b = prompt('Enter key:');
+  
+  if (b === a) {
+    alert('Correct key! Access granted');
+  } else {
+    alert('Incorrect key! Access denied');
+    c();
+  }
+}
+
+c();
+//you can put this code in your script
